@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json()); // allows us to accept JSON data in the req.body
 
-app.use("/api/product", productRoutes);
+app.use("/api/products", productRoutes);
 
 //console.log(process.env.MONGO_URI);
 
